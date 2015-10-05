@@ -31,13 +31,22 @@
     -->
 
     <proxy>
-      <id>test-proxy</id>
+      <id>http-proxy</id>
       <active>true</active>
       <protocol>http</protocol>
       <host>proxy.test.sod.io</host>
       <port>3128</port>
       <nonProxyHosts>test.sod.io</nonProxyHosts>
     </proxy>
+    <proxy>
+      <id>https-proxy</id>
+      <active>true</active>
+      <protocol>https</protocol>
+      <host>proxy.test.sod.io</host>
+      <port>3128</port>
+      <nonProxyHosts>test.sod.io</nonProxyHosts>
+    </proxy>
+
   </proxies>
   
   <profiles>
